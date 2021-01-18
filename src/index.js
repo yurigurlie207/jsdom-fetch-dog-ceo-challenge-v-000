@@ -3,6 +3,7 @@ console.log('%c HI', 'color: firebrick')
 let breeds = [];
 
 // on page load
+// on page load, fetch all the dog breeds using the url above ⬆️
 document.addEventListener('DOMContentLoaded', function () {
   loadImages();
   loadBreedOptions();
@@ -27,7 +28,7 @@ function addImage(dogPicUrl) {
   container.appendChild(newImageEl);
 }
 
-// on page load, fetch all the dog breeds using the url above ⬆️
+
 // add the breeds to the page in an <ul> (take a look at the included index.html)
 function loadBreedOptions() {
   const breedUrl = 'https://dog.ceo/api/breeds/list/all'
