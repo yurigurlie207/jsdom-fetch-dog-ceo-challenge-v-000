@@ -27,8 +27,8 @@ function addImage(dogPicUrl) {
   container.appendChild(newImageEl);
 }
 
-on page load, fetch all the dog breeds using the url above ⬆️
-add the breeds to the page in an <ul> (take a look at the included index.html)
+// on page load, fetch all the dog breeds using the url above ⬆️
+// add the breeds to the page in an <ul> (take a look at the included index.html)
 function loadBreedOptions() {
   const breedUrl = 'https://dog.ceo/api/breeds/list/all'
   fetch(breedUrl)
