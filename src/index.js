@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // fetch the images using the url above ⬆️
 // parse the response as JSON
-// add image elements to the DOM for each🤔 image in the array
 function loadImages() {
   const imgUrl = "https://dog.ceo/api/breeds/image/random/4"
   fetch(imgUrl)
@@ -20,7 +19,7 @@ function loadImages() {
     });
 }
 
-
+// add image elements to the DOM for each🤔 image in the array
 function addImage(dogPicUrl) {
   let container = document.querySelector('#dog-image-container');
   let newImageEl = document.createElement('img');
