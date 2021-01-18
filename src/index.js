@@ -15,6 +15,11 @@ function loadImages() {
       results.message.forEach(image => addImage(image))
     });
 }
+// Add JavaScript so that:
+// on page load
+// fetch the images using the url above ⬆️
+// parse the response as JSON
+// add image elements to the DOM for each🤔 image in the array
 
 function addImage(dogPicUrl) {
   let container = document.querySelector('#dog-image-container');
