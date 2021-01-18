@@ -8,9 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
   loadBreedOptions();
 });
 
-
-// Add JavaScript so that:
-
 // fetch the images using the url above ⬆️
 // parse the response as JSON
 // add image elements to the DOM for each🤔 image in the array
