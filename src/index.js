@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-
 // Add JavaScript so that:
 // on page load
 // fetch the images using the url above ⬆️
