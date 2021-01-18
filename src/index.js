@@ -2,6 +2,7 @@ console.log('%c HI', 'color: firebrick')
 
 let breeds = [];
 
+// on page load
 document.addEventListener('DOMContentLoaded', function () {
   loadImages();
   loadBreedOptions();
@@ -9,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 // Add JavaScript so that:
-// on page load
+
 // fetch the images using the url above ⬆️
 // parse the response as JSON
 // add image elements to the DOM for each🤔 image in the array
