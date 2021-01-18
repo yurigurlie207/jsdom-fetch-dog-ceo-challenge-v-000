@@ -28,7 +28,6 @@ function addImage(dogPicUrl) {
   container.appendChild(newImageEl);
 }
 
-
 // add the breeds to the page in an <ul> (take a look at the included index.html)
 function loadBreedOptions() {
   const breedUrl = 'https://dog.ceo/api/breeds/list/all'
